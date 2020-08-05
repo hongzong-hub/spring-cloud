@@ -318,6 +318,9 @@
       <dir>D:\ideaWorkspace\msc-courses\02-consumer-8080</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -847,7 +850,7 @@
     <property name="SearchEverywhereHistoryKey" value="basicexe&#9;PSI&#9;JAVA://org.hibernate.hql.internal.ast.exec.BasicExecutor&#10;basicbin&#9;PSI&#9;JAVA://org.hibernate.type.descriptor.sql.BasicBinder" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596609060495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596609337584" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/001-consumer-8079" />
@@ -1121,7 +1124,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4969743" visible="true" weight="0.43442622" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4969743" visible="true" weight="0.43513957" />
       <window_info anchor="bottom" id="Application Servers" order="17" sideWeight="0.49848714" weight="0.29746836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
