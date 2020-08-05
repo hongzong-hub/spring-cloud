@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-provider-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/00-eurekaserver-8200/pom.xml" />
+        <option value="$PROJECT_DIR$/00-eurekaserver-8300/pom.xml" />
+        <option value="$PROJECT_DIR$/002-consumer-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/02-provider-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/00-eurekaserver-8100/pom.xml" />
+        <option value="$PROJECT_DIR$/00-eurekaserver-8000/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/001-consumer-8079/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../dubbo-project/00-api/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

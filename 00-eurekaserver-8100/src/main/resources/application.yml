@@ -1,0 +1,36 @@
+server:
+  port: 8100
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #指定当前主机是否是需要向Eureka Server注册自己
+    fetch-registry: false #指定当前主机是否需要下载注册服务表
+    service-url:
+      defaultZone: http://127.0.0.1:8100/eureka,http://127.0.0.1:8200/eureka,http://127.0.0.1:8300/eureka
+  server:
+    #指定自我保护机制的开启阈值
+    #renewal-percent-threshold: 0.75
+    #关闭自我保护机制
+    enable-self-preservation: false
+    #设置server端剔除不可用服务的时间窗，单位毫秒
+    peer-node-connection-idle-timeout-seconds: 4000
+
+#添加eureka server依赖
+#在配置文件中配置eureka server
+#在启动类上添加@enableEurekaServer注解
+
+
+#Renews threshold  Eureka期望每分钟收到客户端续约总数。count*阈值因子/15
+#Renews (last min)	Eureka Server最后一分钟收到的续约数
+#诺 Renews (last min)《Renews threshold启动自我保护
+management:
+  #开启所有监控终端
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        #开启shoudown 终端
+  endpoint:
+    shutdown:
+      enabled: true

@@ -1,0 +1,35 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    #指定spring容器自动启动时是否生成表，默认false
+    generate-ddl: true
+    #在控制台打印sql语句.默认false
+    show-sql: true
+    #指定应用重启后不更新表内容
+    hibernate:
+      ddl-auto: none
+  #数据源配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test?useUnicode=true&amp;characterEncoding=utf-8
+    username: root
+    password: hongzong
+  devtools:
+    restart:
+      #设置热部署生效
+      enabled: true
+      #排除静态资源
+      exclude: static
+    #日志配置
+logging:
+  pattern:
+    console: level-%level %msg%n
+  level:
+    root: info
+    org.hibernate: info
+    #在show-sql为true时显示SQL中的动态参数
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    #在show-sql为true时显示查询结果
+    org.hibernate.hql.internal.ast.exec.BasicExecutor: trace

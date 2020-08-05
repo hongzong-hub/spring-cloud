@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: abcmsc-consumer-depart
+eureka:
+  client:
+    service-url:
+     #defaultZone: http://localhost:8000/eureka
+       #指定当前client 需要连接的eureka server地址
+      defaultZone:  http://127.0.0.1:8100/eureka,http://127.0.0.1:8200/eureka,http://127.0.0.1:8300/eureka
+  instance:
+    instance-id: xxx
+    #设置当前client每一秒向server,发送一次心跳
+    lease-renewal-interval-in-seconds: 1
+   #指定让Server认定当前client已经失效的时间，将来可以从注册表中删除了，单位秒
+    lease-expiration-duration-in-seconds: 3
+    #添加Eureka server依赖
+  #在配置文件中指定要注册的Eureka server地址，指定自己的服务名称
+feign:
+  hystrix:
+    enabled: true
+    #断路器配置
+server:
+  port: 8080
